@@ -1,9 +1,10 @@
 Package: irtnd
-Title: What the Package Does (one line, title case)
+Title: A collection of R functions measurement researchers may find useful.
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Alex", "Brodersen", email = "alex@qpcg.io", role = c("aut", "cre"))
+Description: This package is a collection of functions developed in the Psychological and Educatonal Measurement Lab, housed within the Quantitative Psychology Program, at the University of Notre Dame. The package may also ocntain functions that anyone developing in R may find useful.
 Depends: R (>= 3.3.2)
-License: What license is it under?
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1
