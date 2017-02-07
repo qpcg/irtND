@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: person("Alex", "Brodersen", email = "alex@qpcg.io", role = c("aut", "cre"))
 Description: This package is a collection of functions developed in the Psychological and Educatonal Measurement Lab, housed within the Quantitative Psychology Program, at the University of Notre Dame. The package may also ocntain functions that anyone developing in R may find useful.
 Depends: R (>= 3.3.2)
-Imports: parallel, polycor
+Imports: parallel, polycor, mvtnorm
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
