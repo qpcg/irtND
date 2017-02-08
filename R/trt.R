@@ -1,7 +1,9 @@
 #' Test Retest Matrix
 #'
 #' Creates a matrix of correlations with inter-item correlations from time 1 and time 2 on the respective off diagonals with test retest reliability on the main diagonal. Useful in conjunction with corrplot().
-#' @param love Do you love cats? Defaults to TRUE.
+#' @param dat1 Dataset for time 1
+#' @param dat2 Dataset for time 2
+#' @param use How to handle missing data
 #' @keywords cats
 #' TestRetest()
 
