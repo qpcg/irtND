@@ -7,15 +7,15 @@
 TaylorRussell(rho, base, select)
 }
 \arguments{
-\item{rho}{The validity of the assessment}
+\item{rho}{A vector of validity values for an assessment}
 
-\item{base}{The base rate of potential hires in the population that would be successful}
+\item{base}{A vector of base rates of potential hires in the population that would be successful}
 
-\item{select}{The selection ratio: i.e. the top x% of employees to be selected.}
+\item{select}{A vector of selction ratios: i.e. the top x% of employees to be selected.}
 }
 \description{
 Taylor Russell tables estimate the percentage of new hires that will be successful if a particular selection method is used.
 }
-\keyword{Employee}
-\keyword{Selection}
+\keyword{Russell}
+\keyword{Taylor}
 \keyword{TaylorRussell()}

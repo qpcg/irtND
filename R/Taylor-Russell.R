@@ -1,10 +1,10 @@
 #' Taylor Russell Tables
 #'
 #' Taylor Russell tables estimate the percentage of new hires that will be successful if a particular selection method is used.
-#' @param rho The validity of the assessment
-#' @param base The base rate of potential hires in the population that would be successful
-#' @param select The selection ratio: i.e. the top x% of employees to be selected.
-#' @keywords Employee Selection
+#' @param rho A vector of validity values for an assessment
+#' @param base A vector of base rates of potential hires in the population that would be successful
+#' @param select A vector of selction ratios: i.e. the top x% of employees to be selected.
+#' @keywords Taylor Russell
 #' TaylorRussell()
 
 TaylorRussell <- function(rho,base,select){
